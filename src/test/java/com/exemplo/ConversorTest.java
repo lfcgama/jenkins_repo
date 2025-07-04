@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class ConversorTest {
     @Test
     void testFahrenheitToCelsius() {
-        assertEquals(100.0, Conversor.fahrenheitToCelsius(32.0), 0.01);
+        assertEquals(0.0, Conversor.fahrenheitToCelsius(32.0), 0.01);
     }
 
     @Test
